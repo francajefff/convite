@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melinda Vitória - Primeiro Reinado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <img src="img/Mel_Princesa.jpg" alt="Melinda" class="header-photo foco-topo" />
+      <div class="header-text">
+        <h1 class="header-main-title">Melinda Vitória <span class="sparkle">✨</span></h1>
+        <p class="header-subtitle">celebra seu Primeiro Reinado</p>
+      </div>
+      <img src="img/cinderela.jpg" alt="Melinda" class="header-photo" />
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#baile">O Baile</a></li>
+        <li><a href="#momentos">Momentos</a></li>
+        <li><a href="#castelo">Confirmar Presença</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#presentes">Presentes</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="baile" class="section with-magic-bg">
+        <h2>Um Conto de Fadas se Inicia...</h2>
+        <p class="subtitulo">
+          Os sinos do reino anunciam uma celebração mágica! Convidamos você
+          para o grande baile em comemoração ao 1º aninho da nossa amada
+          princesa.
+        </p>
+        <div id="cronometro">
+          <div class="tempo"><span id="dias">00</span><p>Dias</p></div>
+          <div class="tempo"><span id="horas">00</span><p>Horas</p></div>
+          <div class="tempo"><span id="minutos">00</span><p>Minutos</p></div>
+          <div class="tempo"><span id="segundos">00</span><p>Segundos</p></div>
+        </div>
+      </section>
+
+      <section id="momentos" class="section">
+        <h2>Momentos da Doce Mel ✨</h2>
+        <div class="carousel-wrapper">
+            <div class="carousel-container">
+                <img src="img/Mel1.jpg" alt="Melinda 1" />
+                <img src="img/Mel2.jpg" alt="Melinda 2" />
+                <img src="img/Mel3.jpg" alt="Melinda 3" />
+                <img src="img/Mel4.jpg" alt="Melinda 4" />
+                <img src="img/Mel5.jpg" alt="Melinda 5" />
+                <img src="img/Mel6.jpg" alt="Melinda 6" />
+                <img src="img/Mel7.jpg" alt="Melinda 7" />
+                <img src="img/Mel8.jpg" alt="Melinda 8" />
+                <img src="img/Mel9.jpg" alt="Melinda 9" />
+                <img src="img/Mel10.jpg" alt="Melinda 10" />
+                <img src="img/Mel11.jpg" alt="Melinda 11" />
+            </div>
+            <div class="carousel-dots"></div>
+        </div>
+      </section>
+      
+      <section id="castelo" class="section with-magic-bg">
+        <h2>Confirme sua Presença</h2>
+        <div id="casteloWrapper" class="castelo-wrapper">
+          <div id="casteloTrigger" class="castelo-trigger">
+              <img src="img/castelo.png" alt="Castelo da Cinderela" class="castelo-img">
+              <p>Clique no castelo para confirmar sua presença no baile!</p>
+          </div>
+
+          <div id="confirmacaoContent" class="confirmacao-content">
+              <p class="texto-confirmacao">O baile ocorrerá no dia 19/07/2025 às 17:00</p>
+              <img src="img/qrcode.png" alt="QR Code" class="qr-code" />
+              <a href="https://wa.me/+5581999852457" target="_blank" class="botao-confirmar">Confirmar Presença</a>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="localizacao" class="section">
+        <h2>Onde fica o Castelo?</h2>
+        <div id="carruagemWrapper" class="carruagem-wrapper">
+            <div id="carruagemTrigger" class="carruagem-trigger">
+                <img src="img/carruagem.jpg" alt="Carruagem Encantada" class="carruagem-img">
+                <p>Clique na carruagem para revelar o mapa!</p>
+            </div>
+            <div id="mapaContent" class="mapa-content">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9016215956817!2d-34.9191272!3d-8.111499100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1e59b82c6a8f%3A0xce525558de850498!2sR.%20Rio%20Ipojuca%2C%20341%20-%20Ipsep%2C%20Recife%20-%20PE%2C%2051190-440!5e0!3m2!1spt-BR!2sbr!4v1744226377874!5m2!1spt-BR!2sbr"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+            </div>
+        </div>
+      </section>
+      
+      <section id="presentes" class="section">
+        <h2>Um Mimo para a Princesa</h2>
+        <p class="subtitulo">O maior presente é a sua presença, mas se desejar nos mimar, clique no GIF da Cinderela!</p>
+        <div class="gif-presente">
+          <img
+            id="gifCinderela"
+            class="gif-cinderela"
+            src="img/CinderelaGif.gif"
+            alt="Cinderela dançando"
+          />
+          <div class="presentes hidden" id="listaPresentes">
+             <div class="presente"><img src="img/presente1.png" alt="Boneca" /><p>Roupas 1/2 Anos</p></div>
+             <div class="presente"><img src="img/presente2.png" alt="Livro Ilustrado" /><p>Calçados 21/22</p></div>
+             <div class="presente"><img src="img/presente3.png" alt="Conjunto de Princesa" /><p>Brinquedos Educativos 1 Ano</p></div>
+             <div class="presente"><img src="img/presente4.jpeg" alt="Roupinha Fofa" /><p>Livros Ilustrativos</p></div>
+          </div>
+        </div>
+        <p class="final-phrase">Com amor, esperamos por você!</p>
+      </section>
+    </main>
+
+    <div id="voltarTopo" class="voltar-topo hidden">↑</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
